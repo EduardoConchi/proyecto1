@@ -1,4 +1,11 @@
 .marco {
-	border-width: 7px solid #d7bc8a;
+	border: 7px solid #3c2415;
     -webkit-border-radius: 5px;
+}
+
+.fondo {
+	padding: 15px;
+	background-color: #FFF;
+	border: 5px solid #FFF;
+	-webkit-border-radius: 5px;
 }
