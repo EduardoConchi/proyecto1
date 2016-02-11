@@ -2,14 +2,20 @@
 <html>
 <head>
 	<title>Beef Market</title>
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script type="text/javascript" src="js/google.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta charset="UTF-8" />
 </head>
 <body>
+	<script type="text/javascript">
+		initialize();
+	</script>
+
 	<header>
 	<div>
 		<a href="index.html">
-			<img src="assets/portada.jpg">
+			<img src="assets/header.jpg">
 		</a>
 	</div>
 		<div class="container">
@@ -45,41 +51,67 @@
 	</header>
 
 	<section class="home full-height">
-		<div class="row center">
-	        <div class="col-4">
-	             <img src="assets/recetas/pollo.jpg" class="same-height" />
-	        </div>
-	        <div class="col-4">
-	            <img src="assets/recetas/costilla.jpg" class="same-height" />
-	        </div>
-	        <div class="col-4">
-	        <img src="assets/recetas/pastel.jpg" class="same-height" />
-	        </div>
+		<div class="row ">
 
-        </div>
-        <div class="row">
-        	<div class="col-4">
-        		<div class="col">
-        			<img src="assets/recetas/time.png">
-        			<img src="assets/recetas/people.png">
-        		</div>
-	
-        		<div class="col layout_t">
-        				<h2>Pollo al Vino</h2>
-        				<p>Receta rápida y fácil. El pollo se cuece con vino tinto, cebolla y pasitas, dando como resultado una carne suave con un 	sabor ligeramente dulce...<a href="">LEER MAS</a></p>
-        		</div>
+	        <div class="col-4">
+	            <img src="assets/recetas/pollo.jpg" class="same-height"/>
+	            <div class="col layout_t center">
+			       	<img  src="assets/recetas/time.png" class="time">
+			       	<h5 class="time_p">20 MINUTOS</h5>
+			       	<img src="assets/recetas/people.png" class="time">
+			       	<h5 class="time_p">4 PERSONAS</h5>
+			    </div>
 
-        	</div>
-        	<div class="col-4">
-        		<h2>Costillas en salsa BBQ</h2>
-        		<p>Suaves y jugosos trozos de carne que se desprenden solos del hueso, bañadas en una deliciosa salsa BBQ endulzada...<a href="">LEER MAS</a></p>
-        	</div>
-        	
-        	<div class="col-4">
-        		<h2>Pastel de carne gratinado</h2>
-        		<p>Suaves y jugosos trozos de carne que se desprenden solos del hueso, bañadas en una deliciosa salsa BBQ endulzada...<a href="">LEER MAS</a></p>
-        	</div>
-        </div>
+			    <div class="col start">
+			       	<h2 class="title">Pollo al Vino</h2>
+			       	<p class="text">Receta rápida y fácil. El pollo se cuece con vino tinto, cebolla y pasitas, dando como resultado una carne suave con un 	sabor ligeramente dulce... <a href="" class="read">LEER MAS</a></p>
+			    </div>	
+
+	        </div>
+	        <div class="col-4">
+	            <img src="assets/recetas/costilla.jpg" class="same-height"/>
+	            <div class="col layout_t center">
+			       	<img  src="assets/recetas/time.png" class="time">
+			       	<h5 class="time_p">60 MINUTOS</h5>
+			       	<img src="assets/recetas/people.png" class="time">
+			       	<h5 class="time_p">4 PERSONAS</h5>
+			    </div>
+			    <div class="col start">
+			       	<h2 class="title">Costillas en salsa BBQ</h2>
+			     	<p class="text">Suaves y jugosos trozos de carne que se desprenden solos del hueso, bañadas en una deliciosa salsa BBQ endulzada... <a href="" class="read">LEER MAS</a></p>
+			    </div>
+	        </div>
+	        <div class="col-4">
+	        	<img src="assets/recetas/pastel.jpg" class="same-height"/>
+	        	<div class="col layout_t center">
+			       	<img  src="assets/recetas/time.png" class="time">
+			       	<h5 class="time_p">20 MINUTOS</h5>
+			       	<img src="assets/recetas/people.png" class="time">
+			       	<h5 class="time_p">4 PERSONAS</>
+			    </div>
+			    <div class="col start">
+			       	<h2 class="title">Pastel de carne gratinado</h2>
+			       	<p class="text">Suaves y jugosos trozos de carne que se desprenden solos del hueso, bañadas en una deliciosa salsa BBQ endulzada... <a href="" class="read">LEER MAS</a></p>
+			    </div>
+	        </div>
+		</div>  
+
+		<div class="container full-height">
+			<div class="row center">
+				<div class="col-12">
+					<div class="col layout_t marco" id="googleMap" style="width:650px ;height:300px;"></div>
+
+					<div class="col">
+						<p>Océano Atlántico No.2 <br/>C.P 28218<br/>Colonia del Mar<br/>(Atras de "La Sonrisa")</p>
+					</div>
+
+					<div class="col layout_t">
+							<img src="">
+					</div>
+
+				</div>
+			</div>
+		</div>
 		
 	</section>
 	<footer>
