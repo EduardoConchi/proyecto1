@@ -1,11 +1,12 @@
 .marco {
-	border: 7px solid #3c2415;
-    -webkit-border-radius: 5px;
+	border: 10px solid transparent;
+    -webkit-border-radius: url(marco2-mapa.png) 40 round;
+    border-image: url(marco2-mapa.png) 70 round;
 }
 
 .fondo {
-	padding: 15px;
+	padding: 10px 15px;
 	background-color: #FFF;
-	border: 5px solid #FFF;
-	-webkit-border-radius: 5px;
+	border: 2px solid #FFF;
+	-webkit-border-radius: 2px;
 }
