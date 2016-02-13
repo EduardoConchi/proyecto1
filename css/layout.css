@@ -58,8 +58,9 @@ header img {
     display: block;
 }
 
-.same-height {
-    max-width: 400px;
+.same-width {
+    width: 400px;
+    height: auto;
     overflow: hidden;
 }
 
@@ -116,4 +117,21 @@ header img {
     font-size: 15px;
     font-weight: 600;
     line-height: 1.8;
+}
+
+.orientacion {
+    
+    display: block;
+}
+@media screen and (min-width: 800px) {
+    .same-width {
+        display: block;
+        width: 100%;
+    }
+
+    .orientacion {
+        float: left;
+        display: block;
+    }
+
 }
