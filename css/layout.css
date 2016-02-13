@@ -11,6 +11,10 @@ header, footer{
     font-size: 15px;
     text-transform: uppercase;
     padding: 25px 25px;
+    border-right: 2px solid #FFF;
+    border-right: 15px solid transparent;
+    -webkit-border-radius: url(marco-menu.png) 15 stretch;
+    border-image: url(marco-menu.png) 15 stretch;
 }
 
 .layout_b {
@@ -21,6 +25,15 @@ header, footer{
     padding: 10px 0;
     display: block;
 
+}
+
+.layout_c {
+     color: #FFFFFF;
+    float: left;
+    font-family: helvetica;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 25px 25px;
 }
 
 .layout_s {
@@ -85,6 +98,7 @@ header img {
 }
 
 .adress {
+
     line-height: 1.3;
     display: block;
     text-align: left;
