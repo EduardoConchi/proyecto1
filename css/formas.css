@@ -2,6 +2,7 @@
 	border: 15px solid transparent;
     -webkit-border-radius: url(marco2-mapa.png) 70 round;
     border-image: url(marco2-mapa.png) 70 round;
+    margin: 5px;
 }
 
 .fondo {
