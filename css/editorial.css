@@ -16,6 +16,19 @@ h2{
 	text-transform: uppercase;
 }
 
+h3 {
+	font-family: helvetica;
+	font-size: 25px;
+	color: #3c2415;
+	text-transform: uppercase;
+	
+}
+
+h4 {
+	font-family: helvetica;
+	font-size: 18px;
+}
+
 h5 {
 	color: #3c2415 ;
 	font-family: helvetica;

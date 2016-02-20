@@ -140,8 +140,28 @@ header img {
 }
 
 .orientacion {
-    display: block;
-    padding-bottom: 38px;
+  display: block;
+  padding-bottom: 38px;
+}
+.pollo {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  float: center;
+}
+
+.img-pollo {
+  width: 46%;
+  height: auto;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding-top: 5px;
 }
 
 @media screen and (min-width: 300px) {

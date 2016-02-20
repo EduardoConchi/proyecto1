@@ -11,3 +11,13 @@
 	border: 2px solid #FFF;
 	-webkit-border-radius: 2px;
 }
+
+.linebuttom {
+	border-bottom: 2px solid #3c2415;
+	-webkit-border-radius: 2px;
+}
+
+.division {
+	border-top: 2px solid #FFF;
+	-webkit-border-radius: 2px;
+}
