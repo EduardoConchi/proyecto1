@@ -150,11 +150,23 @@ header img {
   float: center;
 }
 
-.img-pollo {
-  width: 46%;
+.img-1 {
+  width: 49%;
   height: auto;
   overflow: hidden;
-  padding: 5px;
+  padding-top: 7px;
+  padding-bottom: 15px;
+  float: left;
+}
+
+.img-2 {
+  width: 49%;
+  height: auto;
+  overflow: hidden;
+  padding-top: 7px;
+  padding-bottom: 15px;
+  float: right;
+
 }
 
 .img {
@@ -162,6 +174,14 @@ header img {
   height: auto;
   overflow: hidden;
   padding-top: 5px;
+}
+
+.orient-1 {
+  float: left;
+}
+
+.orient-2{
+  float: right;
 }
 
 @media screen and (min-width: 300px) {
@@ -392,10 +412,17 @@ header img {
         padding-top: 20px;
 
     }
-
     .orientacion {
         float: left;
         display: block;
+    }
+
+    .orient-1 {
+      float: left;
+    }
+
+    .orient-2{
+      float: left;
     }
 
     .col-0 {
