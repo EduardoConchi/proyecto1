@@ -6,7 +6,6 @@ p {
 	color: #3c2415 ;
 	font-family: helvetica;
 	text-align: justify;
-	padding: 0 13px 0 0;
 }
 
 h2{
@@ -21,12 +20,14 @@ h3 {
 	font-size: 25px;
 	color: #3c2415;
 	text-transform: uppercase;
+	font-weight: 700;
 	
 }
 
 h4 {
 	font-family: helvetica;
 	font-size: 18px;
+	font-weight: 700;
 }
 
 h5 {

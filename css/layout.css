@@ -13,8 +13,20 @@ header, footer{
   display: none;
 }
 
+.derecha{
+  text-align: right;
+}
+
+.izquierda{
+  text-align: left;
+}
+
 .margen {
   margin: 7px;
+}
+
+.mar {
+  margin-right: 25%;
 }
 
 .layout_a {
