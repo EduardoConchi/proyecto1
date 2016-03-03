@@ -3,7 +3,7 @@ a {
 }
 
 p {
-	color: #3c2415 ;
+	color: #3c2415;
 	font-family: helvetica;
 	text-align: justify;
 }
@@ -13,6 +13,7 @@ h2{
 	font-weight: 700;
 	color: #3c2415;
 	text-transform: uppercase;
+	margin: 10px 0;
 }
 
 h3 {
@@ -28,10 +29,13 @@ h4 {
 	font-size: 18px;
 	font-weight: 700;
 	color: #3c2415;
+	margin: 10px 0;
 }
 
 h5 {
 	color: #3c2415 ;
 	font-family: helvetica;
+	margin: 10px 0;
 }
+
 
